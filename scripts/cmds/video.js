@@ -24,7 +24,7 @@ module.exports = {
 
     onStart: async function ({ api, event, args }) {
         const searchQuery = encodeURIComponent(args.join(" "));
-        const apiUrl = `https://c-v1.onrender.com/yt/s?query=${searchQuery}`;
+        const apiUrl = `https://c-v2.onrender.com/yt/s?query=${searchQuery}`;
         
         if (!searchQuery) {
             return api.sendMessage("Please provide the video title.", event.threadID, event.messageID);
@@ -83,7 +83,7 @@ module.exports = {
 
             const selectedTrack = tracks[reply - 1];
             const videoUrl = selectedTrack.videoUrl;
-            const downloadApiUrl = `https://c-v1.onrender.com/downloader?url=${encodeURIComponent(videoUrl)}`;
+            const downloadApiUrl = `https://c-v2.onrender.com/downloader?url=${encodeURIComponent(videoUrl)}`;
 
             api.sendMessage("⏳ | Downloading your video, please wait...", event.threadID, async (err, info) => {
                 if (err) {
