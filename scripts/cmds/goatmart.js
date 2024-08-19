@@ -1,12 +1,12 @@
 const axios = require("axios");
 const APIKEY = "V-GoatMart-Beta-xv4-Ibs8j-90-az7-V";
-const serverURL = "https://goatmart-5vin.onrender.com";
+const serverURL = "https://goatmart-ncpw.onrender.com";
 
 module.exports = {
   config: {
     name: "goatmart",
     aliases: ["gm"],
-    role: 0,
+    role: 2,
     shortDescription: {
       en: "View Items Available In The GoatMart."
     },
