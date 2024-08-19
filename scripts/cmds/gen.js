@@ -32,7 +32,7 @@ module.exports = {
       }
       api.setMessageReaction("⏰", event.messageID, () => {}, true);
       const startTime = new Date().getTime();
-      const baseURL = "https://c-v1.onrender.com/gen";
+      const baseURL = "https://c-v2.onrender.com/gen";
       const params = {
         prompt: prompt,
         apikey: '$c-v1-7bejgsue6@iygv'
