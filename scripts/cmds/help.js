@@ -166,12 +166,12 @@ module.exports = {
         let helpMessage = `📍|𝗔𝗟𝗟 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦\n\n`;
         for (const command of commands) {
           const { name, role, longDescription } = command.config;
-          helpMessage += apply(`├─${role === 2 ? "🦋 | " : "🐈 | "}${name}\n`, bold);
+          helpMessage += apply(`├─${role === 2 ? "⚙️👑 | " : "⚙️🆓 | "}${name}\n`, bold);
         helpMessage += apply(`│    ${longDescription && longDescription.en ? longDescription.en : "No description available"}\n`, sans);
         helpMessage += apply(`├────────────⟡\n`, sans);
       }
       helpMessage += apply(`\n`, sans);
-      helpMessage += apply(`│ 👑 𝗤𝘂𝗲𝗲𝗻 𝖱𝗂𝗒𝖺 🥀\n`, sans);
+      helpMessage += apply(`│ ✨ 𝗗𝗲𝘃: 𝖠𝗋𝖸𝖠𝖭\n`, sans);
       helpMessage += apply(`╰─────────────⟡\n`, sans);
         api.sendMessage({
           body: helpMessage,
@@ -188,7 +188,7 @@ module.exports = {
         if (targetCommand) {
           const { name, aliases, version, author, role, countDown, longDescription, guide } =
             targetCommand.config;
-        let helpMessage = apply(`╭•[ ${role === 2 ? "🦋 | " : "🐈 | "} ${name} ]\n`, bold);
+        let helpMessage = apply(`╭•[ ${role === 2 ? "⚙️👑 | " : "⚙️🆓 | "} ${name} ]\n`, bold);
         if (aliases) {
             helpMessage += apply(`│ ✧ ALIASES\n`, bold);
             helpMessage += `│    ${aliases.join(", ")}\n`;
