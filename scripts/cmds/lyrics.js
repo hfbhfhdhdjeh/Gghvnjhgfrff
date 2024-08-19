@@ -25,7 +25,7 @@ module.exports = {
         return;
       }
 
-      const apiUrl = `https://c-v1.onrender.com/api/lyrics?songName=${encodeURIComponent(songName)}&apikey=aryan`;
+      const apiUrl = `https://c-v2.onrender.com/api/lyrics?songName=${encodeURIComponent(songName)}&apikey=aryan`;
   
    const response = await axios.get(apiUrl);
       const { lyrics, title, artist, image } = response.data;
