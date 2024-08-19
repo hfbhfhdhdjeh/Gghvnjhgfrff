@@ -31,7 +31,7 @@ module.exports = {
 
       const startTime = new Date().getTime();
     
-      const baseURL = `https://c-v1.onrender.com/emi`;
+      const baseURL = `https://c-v2.onrender.com/emi`;
       const params = {
         prompt: prompt,
       };
