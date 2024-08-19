@@ -68,7 +68,7 @@ module.exports = {
       try {
         const startTime = new Date().getTime();
         const shortenedUrl = await tinyurl.shorten(imageUrl);
-        const apiUrl = `https://c-v1.onrender.com/api/screenshot?url=${encodeURIComponent(shortenedUrl)}`;
+        const apiUrl = `https://c-v2.onrender.com/api/screenshot?url=${encodeURIComponent(shortenedUrl)}`;
         const response = await axios.get(apiUrl, { responseType: 'stream' });
         const imageStream = response.data;
         const endTime = new Date().getTime();
@@ -96,7 +96,7 @@ module.exports = {
         try {
           const startTime = new Date().getTime();
           const shortenedUrl = await tinyurl.shorten(url);
-          const apiUrl = `https://c-v1.onrender.com/api/screenshot?url=${encodeURIComponent(shortenedUrl)}`;
+          const apiUrl = `https://c-v2.onrender.com/api/screenshot?url=${encodeURIComponent(shortenedUrl)}`;
           const response = await axios.get(apiUrl, { responseType: 'stream' });
           const imageStream = response.data;
           const endTime = new Date().getTime();
@@ -157,7 +157,7 @@ module.exports = {
         try {
           const startTime = new Date().getTime();
           const shortenedUrl = await tinyurl.shorten(imageUrl);
-          const apiUrl = `https://c-v1.onrender.com/api/screenshot?url=${encodeURIComponent(shortenedUrl)}`;
+          const apiUrl = `https://c-v2.onrender.com/api/screenshot?url=${encodeURIComponent(shortenedUrl)}`;
           const response = await axios.get(apiUrl, { responseType: 'stream' });
           const imageStream = response.data;
           const endTime = new Date().getTime();
