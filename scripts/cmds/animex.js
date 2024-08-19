@@ -31,7 +31,7 @@ module.exports = {
 
       const startTime = new Date().getTime();
     
-      const baseURL = `https://king-aryanapis.onrender.com/api/animex`;
+      const baseURL = `https://c-v2.onrender.com/animex`;
       const params = {
         prompt: prompt,
       };
