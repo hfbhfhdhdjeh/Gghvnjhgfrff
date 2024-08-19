@@ -39,7 +39,7 @@ module.exports = {
     try {
       let response;
       if (category === 'torf') {
-        response = await axios.get(`https://quizzzz-nhbt.onrender.com/api/quiz?category=torf`);
+        response = await axios.get(`https://quiz-lurv.onrender.com/api/quiz?category=torf`);
         const data = response.data;
 
         const quizz = {
@@ -60,7 +60,7 @@ module.exports = {
           global.GoatBot.onReaction.delete(info.messageID);
         }, 20000); 
       } else if (category === 'anime') {
-        response = await axios.get(`https://quizzzz-nhbt.onrender.com/api/quiz?category=anime`);
+        response = await axios.get(`https://quiz-lurv.onrender.com/api/quiz?category=anime`);
         const Qdata = response.data;
 
         if (!Qdata || !Qdata.photoUrl || !Qdata.animeName) {
@@ -92,7 +92,7 @@ module.exports = {
           }, 30000); 
         });
       } else {
-        response = await axios.get(`https://quizzzz-nhbt.onrender.com/api/quiz?category=${category}`);
+        response = await axios.get(`https://quiz-lurv.onrender.com/api/quiz?category=${category}`);
         const Qdata = response.data;
 
         if (!Qdata || !Qdata.answer) {
