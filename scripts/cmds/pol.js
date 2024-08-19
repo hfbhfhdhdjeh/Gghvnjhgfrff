@@ -32,7 +32,7 @@ module.exports = {
 
       const startTime = new Date().getTime();
     
-      const baseURL = `https://c-v1.onrender.com/pollinations`;
+      const baseURL = `https://c-v2.onrender.com/pollinations`;
       const params = {
         prompt: prompt,
         apikey: '$c-v1-7bejgsue6@iygv'
