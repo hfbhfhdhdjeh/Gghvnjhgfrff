@@ -2,7 +2,7 @@ const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
 const os = require('os');
-const cookies = '1kZgtZMeNO6EgxqGDh7w_npEdf_fpqTCRlf5waEPuZGddQHHcDiJIdHP6kQYO4Tvp_3WJCgyd1vO0Jw9Aq0_wkOhDfo7afuAQJZgYy2CXgG1PzfEbzfWDxMPKejLcGLF5xiUfRmrAvJBVHN143EI489t0AyBsouto-L_APUDygW2U392RsgfZ_gwXS8PzRvLTMX_VP_rHhVgb3oFlQel4HA'; // Add your cookies here
+const cookies = '1EW67wRni4gKmk_zowEoOrzhMN3d9SlfuT2_OfVb4TbMw6bWjJTJbvfl38l-bm29-znqig6j76FgVaAQMA8hFttxRxM9oAgr6jmftI9mzkf5aVNkXG7pIgjREgd6076llZqos734VkdtJC6OMepxxDtJyHiK5NXqO6QoEa2sU_uWturd2VzESYhHkq-G2kv2D7wuZ-DAFfgNr_htp4kkdTg'; // Add your cookies here
 
 module.exports = {
   config: {
