@@ -47,7 +47,7 @@ module.exports = {
         throw new Error('Invalid or missing response from API');
       }
 
-      await message.reply(response.data.response); 
+      await message.reply(response.data.answer); 
 
     } catch (error) {
       console.error(`Error fetching response: ${error.message}, Status Code: ${error.response ? error.response.status : 'N/A'}`);
