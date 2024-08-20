@@ -36,7 +36,7 @@ module.exports = {
 
       try {
         console.log("Sending request to Bing API with prompt:", text);
-        const response = await axios.get(`https://c-v1.onrender.com/api/bing?prompt=${encodeURIComponent(text)}&cookie=${encodeURIComponent(cookies)}`, {
+        const response = await axios.get(`https://bing-5v14.onrender.com/bing?prompt=${encodeURIComponent(text)}&cookie=${encodeURIComponent(cookies)}`, {
           headers: {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
           }
@@ -45,7 +45,7 @@ module.exports = {
         console.log("Received response from Bing API:", response.data);
         api.setMessageReaction("✅", event.messageID, () => {}, true);
 
-        const images = response.data.images;
+        const images = response.data.result;
         if (!images || images.length === 0) {
           throw new Error("No images found in the response");
         }
