@@ -1,6 +1,6 @@
 {
   "facebookAccount": {
-    "email": "jocar26521@brinkc.com",
+    "email": "mabar75867@chaladas.com",
     "password": "pppp@0000",
     "2FASecret": "",
     "i_user": "",
@@ -20,8 +20,10 @@
     "61561964107281"
   ],
   "whiteListMode": {
-    "enable": false,
-    "whiteListIds": [],
+    "enable": true,
+    "whiteListIds": [
+      "61561964107281"
+    ],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
   "OWNER": "ArYAN",
