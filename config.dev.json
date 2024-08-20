@@ -17,20 +17,22 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "61561964107281"
+    "61561964107281",
+    "61564234305056"
   ],
   "whiteListMode": {
     "enable": true,
     "whiteListIds": [
-      "61561964107281"
+      "61561964107281",
+      "61564234305056"
     ],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
   "OWNER": "ArYAN",
   "AGE": "17",
   "GENDER": "MALE",
-  "nickNameBot": "🤖 𝗢𝗿𝗼𝗰𝗵𝗶 𝖡𝖾𝗌𝗍𝖻𝗈𝗍",
-  "FACEBOOK": "https://www.facebook.com/61561964107281",
+  "nickNameBot": "Itz Aryan remove you from the group.",
+  "FACEBOOK": "https://www.facebook.com/61564234305056",
   "prefix": ".",
   "database": {
     "type": "mongodb",
