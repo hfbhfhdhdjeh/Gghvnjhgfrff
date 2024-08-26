@@ -18,13 +18,15 @@
   },
   "adminBot": [
     "61561964107281",
-    "61564234305056"
+    "61564234305056",
+    "100091359169655"
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [
       "61561964107281",
-      "61564234305056"
+      "61564234305056",
+      "100091359169655"
     ],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
@@ -35,7 +37,7 @@
   "FACEBOOK": "https://www.facebook.com/61564234305056",
   "prefix": ".",
   "database": {
-    "type": "mongodb",
+    "type": "sqlite",
     "uriMongodb": "mongodb+srv://orochibestbot:xNFYv3Hz0d3Bi2u6@testing.dbn4ekz.mongodb.net/?retryWrites=true&w=majority&appName=Testing",
     "autoSyncWhenStart": true,
     "autoRefreshThreadInfoFirstTime": true,
